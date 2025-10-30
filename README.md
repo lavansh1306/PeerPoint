@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# DoubtSpark HQ — PeerPoint
 
-## Project info
+Welcome to DoubtSpark HQ (a.k.a. PeerPoint) — the friendly, fast, and focused doubt-solving universe built for SRM students. This repo contains the web app and UI components that power a collaborative learning experience: ask, answer, earn XP, and level up together.
 
-**URL**: https://lovable.dev/projects/c3c59b64-40e1-4e1e-bcf5-1b978fb707cd
+## ✨ What we do
 
-## How can I edit this code?
+- Connect SRM students so they can ask precise doubts and get helpful answers quickly.
+- Reward helpful contributors with XP and leaderboard recognition.
+- Provide an intuitive UI for posting questions, commenting, and voting on answers.
+- Make the app fast, accessible, and delightful to use — from first load to everyday study sprints.
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- Real-time-like feed of questions and answers
+- XP / leveling and gamified leaderboards
+- Profile pages, badges, and achievements
+- Lightweight, responsive UI built with React + Tailwind
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c3c59b64-40e1-4e1e-bcf5-1b978fb707cd) and start prompting.
+For a full breakdown of folders and key files, see `STRUCTURE.md` (created alongside this README).
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Quick start
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+1. Install dependencies (npm/yarn/bun):
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Start the dev server:
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+3. Build for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build
+```
 
-**Use GitHub Codespaces**
+Notes:
+- This project uses Vite + React + TypeScript. If you prefer `yarn` or `bun`, those commands will work too.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🧭 Where to look first
 
-## What technologies are used for this project?
+- `src/` — app source: pages, components, hooks, and utilities.
+- `index.html` — HTML entry, meta tags and og data.
+- `vite.config.ts` — Vite configuration and plugins.
 
-This project is built with:
+See `STRUCTURE.md` for a complete guided tour.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🤝 Contributors
 
-## How can I deploy this project?
+- Vansh Jha
+- Aditya Mishra
 
-Simply open [Lovable](https://lovable.dev/projects/c3c59b64-40e1-4e1e-bcf5-1b978fb707cd) and click on Share -> Publish.
+Thanks to everyone who helps report issues, improve accessibility, or polish the UX. Want to contribute? Open a PR with a descriptive title, link to an issue (or create one), and include a short summary of what you changed.
 
-## Can I connect a custom domain to my Lovable project?
+## 📣 Contribution guidelines (short)
 
-Yes, you can!
+- Fork the repo and create a feature branch: `feature/short-description`.
+- Keep changes focused and add tests or screenshots when relevant.
+- Run linters and type checks before opening a PR.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+If you'd like a dedicated CONTRIBUTING.md or templates, I can add them next.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+Made with focus and a little bit of spark ✨
